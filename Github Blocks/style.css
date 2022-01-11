@@ -1,0 +1,59 @@
+/* Flexbox for Github Blocks assignment */
+
+h1 {
+    color:rgb(47, 49, 49);
+    font-style: bold;
+    text-align: center;
+}
+
+#container {
+    margin: 0px auto;
+    width: 800px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    margin: 20px;
+}
+
+.row {
+    background-color: royalblue;
+    /* width: 800px; */
+    /* height: 220px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.top {
+    background-color: purple; 
+    /* width: 800px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    /* margin: 20px; */
+    
+}
+
+.middle {
+    background-color: gold;
+    /* width: 800px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px; */
+}
+
+/* #bottom_bar {
+    background-color: royalblue;
+    width: 800px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 20px; */
+} 
